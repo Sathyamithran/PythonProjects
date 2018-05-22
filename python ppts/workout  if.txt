@@ -1,0 +1,24 @@
+weeconditional constructs:
+
+1. grade (>=90-a,>=80-b,>=70-c,>=60-d,>=50-f)
+2. weekday in 1,2,3,4,5,6,7
+3. First 50 units - 1 rs, if (>50,1.5rs), if(>100-2rs)- eb problem
+4. leap year problem
+5. max, minimum, sum, avg of 3 nums
+6.Count digits in a number
+7.Find out how many times a particular digit occurs in a number
+8.Display the Fibonacci series up to a max limit
+9.Display first n numbers of a Fibonacci series
+10.Calculate the factorial of a number n 
+11.A program that generates all prime numbers between x and y
+12Generate the first 10 even numbers
+13Input a number and check if it is prime or not
+14Input 10 numbers and display the smallest and largest of them
+15Input 10 numbers and display the sum and average. 
+Explore the internet and find out how to display a floating number to required decimal places.
+16Input a number and calculate its factorial
+
+
+
+
+

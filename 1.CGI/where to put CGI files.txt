@@ -1,0 +1,3 @@
+please put the CGI files in the location
+
+C:\xampp\htdocs\moodle\server\cgi-bin

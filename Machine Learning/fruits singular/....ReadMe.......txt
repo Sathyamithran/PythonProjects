@@ -1,0 +1,3 @@
+this needs to get into a single excel dataset....
+
+weight	texture	  size   shape	  outer_colour	 inner_colour  

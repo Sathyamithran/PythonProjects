@@ -1,0 +1,244 @@
+/* this helps the whole font color and margin adjustments....*/
+body
+{
+  font: 15px/1.5 Arial, helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+
+/* this is the global container*/
+.container
+{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+/* all the <ul> will have the below setting becase it is setted globally*/
+ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1
+{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #e8491d;
+  color: #ffffff;
+  height: 40px;
+  width: 180px;
+  border: 0;/* for no border for buttons*/
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* this is dark box background in about page*/
+.dark
+{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* this is for the footer to be in the bottom of the page in HOME page*/
+.foot_home
+{
+  margin-top: 10px;
+  border: 0;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  background: #e8491d;
+}
+
+/* this is for the footer to be in the bottom of the page in HOME page*/
+.foot_services
+{
+  margin-top: 10px;
+  border: 0;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  background: #e8491d;
+}
+
+/* this is for the footer to be in the bottom of the page in ABOUT page*/
+.foot_about
+{
+  margin-top: 300px;
+  border: 0;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  background: #e8491d;
+}
+
+/*this is for the header*/
+header
+{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;/* this is for the minimum height when used in phone*/
+  border-bottom: #e8491d 3px solid;
+}
+
+header a
+{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+
+
+header li
+{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+/*now this part is for movinf the #branding column with the separate directions*/
+header #branding
+{
+  float: left;
+}
+
+header #branding h1
+{
+  margin: 0;
+}
+
+header nav
+{
+  float: right;
+  margin-top: 10px;
+}
+
+/* this will provide the colour to SATHYAMITHRAN WEB DESIGN in a specific colour
+   and this uses '.highlight' class and '.current' class to give style in link in the anchor tag*/
+header .highlight, header .current a
+{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+/* this helps while moving the mouse over the link will produce some changes*/
+header a:hover
+{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* now the 'showcase' process starts*/
+#showcase
+{
+  min-height: 400px;
+  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1
+{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#showcase p
+{
+  font-size: 20px;
+}
+
+/* this is the part for Newsletter*/
+#newsletter
+{
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+}
+
+#newsletter h1
+{
+  float: left;
+}
+
+#newsletter form
+{
+  float: right;
+  margin-top: 30px;
+}
+
+/* this is for particular input type called email*/
+#newsletter input[type="email"]
+{
+  padding: 3px;
+  height: 30px;
+  width: 300px;
+}
+
+/* now the Boxes */
+#boxes
+{
+  margin-top: 20px;
+}
+
+#boxes .box
+{
+  text-align: center;
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img
+{
+  width: 100px;
+}
+
+/*sidebar in the About page*/
+aside#sidebar
+{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/*this is for the quote in the services page*/
+aside#sidebar .quote input, aside#services .quote textarea
+{
+  width:90%;
+  padding: 5px;
+}
+
+/* main_col in about page...*/
+article#main_col
+{
+  float: left;
+  width: 65%;
+}
+
+/* */
+ul#services li
+{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
